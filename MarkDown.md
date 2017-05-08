@@ -30,7 +30,20 @@ Markdown是一种可以使用普通文本编辑器编写的标记语言，通过
 ## 区段  
 - 链接 url:<https://www.baidu.com/>
      文字链接：[百度首页](https://www.baidu.com/)  
-- 代码     
+- 代码   
+  关于代码如果想要加阴影显示则在行前加tab像这样  
+          main()   
+          {   
+          int i,j,k;   
+          printf("\n");   
+          for(i=1;i<5;i++)　　　　／*以下为三重循环*/   
+　         for(j=1;j<5;j++)　   
+　　        for (k=1;k<5;k++)   
+　　　       {   
+　　　　      if (i!=k&&i!=j&&j!=k) 　　　/*确保i、j、k三位互不相同*/   
+　　　　      printf("%d,%d,%d\n",i,j,k);   
+　　　       }   
+          }   
 
 - 插入图片 ![MD](http://2.im.guokr.com/YtavWcYpNiA3PDc9nI3VlKABHBwMwev-sVT_rHUQJAjEAQAA_wAAAEpQ.jpg)
 # 万能的最后
